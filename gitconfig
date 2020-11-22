@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
+	editor = subl -n -w  >/dev/null 2>&1
 
 [alias]
   co = checkout
@@ -47,8 +47,8 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = brun.aub1512@gmail.com
-	name = augustin brun brun.aub1512@gmail.com
+	email = brunn.aub1512@gmail.com
+	name = Augustin Brun
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
